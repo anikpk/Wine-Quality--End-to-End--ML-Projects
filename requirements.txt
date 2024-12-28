@@ -1,0 +1,27 @@
+pandas 
+notebook
+numpy
+scikit-learn
+matplotlib
+python-box==6.0.2
+pyYAML
+ensure==1.0.2
+joblib
+types-PyYAML
+Flask
+Flask-Cors
+-e .
+
+pandas: A powerful library for data manipulation and analysis.
+notebook: For Jupyter Notebook, an interactive computing environment.
+numpy: Fundamental package for scientific computing with Python, particularly useful for working with arrays.
+scikit-learn: A library for machine learning with simple and efficient tools for data mining and data analysis.
+matplotlib: A plotting library to create static, animated, and interactive visualizations in Python.
+python-box==6.0.2: A library for working with dictionaries and more in Python, providing better handling of nested structures.
+pyYAML: A YAML parser and emitter for Python.
+ensure==1.0.2: A utility for ensuring packages and dependencies.
+joblib: A library for serializing Python objects, particularly useful for saving trained machine learning models.
+types-PyYAML: Type stubs for the pyYAML library, helpful for type checking in Python.
+Flask: A micro web framework for building web applications in Python.
+Flask-Cors: A Flask extension for handling Cross-Origin Resource Sharing (CORS), allowing you to build APIs that can be accessed from different origins.
+-e .: This refers to installing the current directory as an editable package, which is useful if you are developing your own library or package and want to test it without reinstalling it after each change.
