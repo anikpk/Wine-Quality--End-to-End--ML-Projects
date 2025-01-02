@@ -3,11 +3,14 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
+
 __version__ = "0.0.0"
+
 REPO_NAME = "Wine-Quality---End-to-End-ML-Projects"
 AUTHOR_USER_NAME = "anikpk"
 SRC_REPO = "mlProject"
 AUTHOR_EMAIL = "anikpkanik@gmail.com"
+
 
 setuptools.setup(
     name=SRC_REPO,
@@ -22,8 +25,5 @@ setuptools.setup(
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
     package_dir={"": "src"},
-    packages=setuptools.find_packages(where="src"),
-    install_requires=[  # Optional: If you have dependencies listed
-        # Example: 'numpy', 'pandas', etc.
-    ],
+    packages=setuptools.find_packages(where="src")
 )
