@@ -1,3 +1,4 @@
+#This is setip file for this system and it's contains all the importnt infos to deploy the system
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as f:
@@ -6,10 +7,12 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
+
 REPO_NAME = "Wine-Quality---End-to-End-ML-Projects"
 AUTHOR_USER_NAME = "anikpk"
 SRC_REPO = "mlProject"
 AUTHOR_EMAIL = "anikpkanik@gmail.com"
+
 
 
 setuptools.setup(
