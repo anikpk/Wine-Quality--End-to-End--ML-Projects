@@ -1,6 +1,7 @@
-# from src.mlProject.config import configuration as config
+import sys
 
+# Import the logger from the logging module
+from src.mlProject import logger
 
-from src.mlProject.logging import logger
-
-logger.infO("Checking this logger:")
+# Give the method name, 'info' (lowercase 'i' and 'o')
+logger.info("Checking this logger!!")
